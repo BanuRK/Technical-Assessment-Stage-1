@@ -1,0 +1,43 @@
+
+  :root {
+    --main-font-color:#6E0E0A;
+    --font-family:'Courier New';
+    --background-color:#bac3c3;
+    --secondary-font-color:#2c5784;
+}
+body{
+    background-color: var(--background-color);
+}
+h1{
+    text-align: center;
+    color: var(--main-font-color); 
+    text-decoration: underline;
+    text-decoration-color: #2c5784;
+    font-family: var(--font-family);
+}
+.pseudo-element-implementation,h2 {
+    color: var(--secondary-font-color);
+    text-align: center;
+}
+.pseudo-element-implementation,h2::before{
+    content: 'Hello Leaner, ';  
+}
+div{
+    text-align: center;
+}
+.login-button{
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    background-color: var(--secondary-font-color);
+}
+.login-button:hover{
+    background-color: var(--main-font-color);
+    border-radius: 50%;
+}
+:focus{
+    outline: 3px solid blue;
+}
+h3{
+  color: var(--main-font-color);
+}

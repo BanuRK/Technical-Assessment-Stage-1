@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<style>
+  :root {
+    --main-font-color:#6E0E0A;
+    --font-family:'Courier New';
+    --background-color:#bac3c3;
+    --secondary-font-color:#2c5784;
+}
+body{
+    background-color: var(--background-color);
+}
+h1{
+    text-align: center;
+    color: var(--main-font-color); 
+    text-decoration: underline;
+    text-decoration-color: #2c5784;
+    font-family: var(--font-family);
+}
+.pseudo-element-implementation,h2 {
+    color: var(--secondary-font-color);
+    text-align: center;
+}
+.pseudo-element-implementation,h2::before{
+    content: 'Hello Leaner, ';  
+}
+div{
+    text-align: center;
+}
+.login-button{
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    background-color: var(--secondary-font-color);
+}
+.login-button:hover{
+    background-color: var(--main-font-color);
+    border-radius: 50%;
+}
+:focus{
+    outline: 3px solid blue;
+}
+h3{
+  color: var(--main-font-color);
+}
+</style>
+<body>
+    <header>
+      <h1>  Welcome </h1>
+    </header>
+    <p class="pseudo-element-implementation">
+       <h2> Welcome to Technical Assessment!</h2>
+    </p>
+    <div>
+      <label> Select Your course:</label><br>
+      <select style="width: 180px; height:80px;" multiple>
+        <option value="Full Stack Development">Full Stack Development</option>
+        <option value="Spoken English">Spoken English</option>
+        <option value="Fire and safety">Fire and safety</option>
+        <option value="Apptitude">Apptitude</option>
+        <option value="TNPSC">TNPSC</option>
+        <option value="Police Exams">Police Exams</option>
+        <option value="UPSC">UPSC</option>
+        <option value="Bank Exams">Bank Exams</option>
+      </select><br><br>
+      <label > User Name</label>
+      <input type="text" id="name" placeholder="Enter Your Name"><br><br>
+      <label > Password</label>
+      <input type="password" id="password" placeholder="Enter Your Password"><br><br>
+    <button class="login-button">LOGIN </button>
+    </button>
+    </div>
+    <h3>Here is my Favbook!!!</h3>
+    <figure>
+      <img src="favbook.jpg">
+    </figure>
+    <figcaption>
+      Writted by,SUSAN NOLEN-HOKKSEMA, Ph.D
+    </figcaption>
+</body>
+</html>

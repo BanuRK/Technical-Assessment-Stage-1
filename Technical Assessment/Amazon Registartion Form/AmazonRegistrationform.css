@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.amazon-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.amazon-logo img{
+    width: 103px;
+    height: 31px;
+    margin-top: 15px;
+}
+.amazon-logo span{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.Amazon-registration-form{
+    width: 296px;
+    height: 450px;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px auto 25px auto;
+}
+.Amazon-registration-form h1{
+    font-weight: 400;
+    font-size: 28px;
+}
+.Amazon-registration-form label{
+    font-size: 13px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+#mobile-number{
+    width: 195px;
+    height: 25px;
+}
+.Amazon-registration-form select{
+    height: 25px;
+    background-color: #fff;
+    border: 1px solid #a6a6a6;
+    border-radius: 5px; 
+}
+.Amazon-registration-form input{
+    width: 272px;
+    height: 25px;
+    padding: 3px 7px;
+    margin-top: 3px;
+    background-color: #fff;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+.Amazon-registration-form button{
+    width: 288px;
+    height: 31px;
+    margin-top: 15px;
+    background-color: #f0c1bbbb;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    background-image: linear-gradient(#f7da90,#e2b33b);
+    border-radius: 3px; 
+    font-size: large;
+}
+#alert-message{
+    font-size: x-small;
+    font-weight: lighter;
+    color: #a6a6a6;
+}
+#paragraph{
+    font-size:xx-small;
+    font-weight: lighter;
+    line-height: 1.5;
+}
+.Amazon-form{
+margin-top: 20px;
+gap: 20px;
+}

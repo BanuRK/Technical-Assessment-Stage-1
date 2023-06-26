@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Google-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Google-logo img{
+    width: 103px;
+    height: 81px;
+    margin-top:-55px;
+}
+
+.Google-signup-form{
+    width: 350px;
+    height: 360px;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px auto 25px auto;
+}
+.Google-signup-form h1{
+    font-weight: 400;
+    font-size: 28px;
+    margin-top:-115px;
+}
+.Google-signup-form label{
+    font-size: 13px;
+    padding:32%;
+    font-weight: 500;
+    font-size: medium;
+    margin-top:5px;
+}
+.Google-signup-form input{
+    width: 330px;
+    height: 35px;
+    padding: 3px 7px;
+    margin-top: 3px;
+    background-color: #fff;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+}
+.Google-signup-form button{
+    width: 88px;
+    height: 31px;
+    margin-top: 15px;
+    margin-left:260px;
+    background-color: #f0c1bbbb;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px; 
+    background-color: #293be0;
+    color: #ddd;
+    font-weight: 600;
+    font-size: medium;
+}
+.Google-form{
+    margin-top: -95px;
+}
